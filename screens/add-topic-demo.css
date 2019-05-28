@@ -1,0 +1,121 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            width: 35%;
+            justify-content: space-between;
+            align-self: center;
+        }
+
+        .combobox {
+            display: flex;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+        }
+
+        .drop-image {
+            width: 20px;
+            height: 20px;
+            align-self: center;
+            padding-left: 5px;
+        }
+
+        .data-format {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 3px #DADADA;
+            padding: 5px;
+            padding-left: 40px;
+            margin: 10px 0px;
+
+        }
+
+        .icon-image {
+            width: 50px;
+            height: 50px;
+        }
+
+        .button {
+            padding: 10px;
+            background-color: #00BECF;
+            border-radius: 50%;
+            border: 0px;
+            color: #FFFFFF;
+            font-size: 30px;
+            width: 60px;
+        }
+
+        .add-section {
+            display: flex;
+            border: 6px dotted #D5CBCB;
+            justify-content: center;
+            padding: 20px;
+        }
+        .down-arrow {
+            width: 25px;
+            height: 25px;
+            align-self: center;
+            padding-right: 10px;
+        }
+
+        .btn {
+            padding: 10px;
+            border-radius: 50px 0px 0px 50px;
+            background-color: #32BDD2;
+            color: #FFFFFF;
+            border: 1px #000000;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .right-arrow {
+            width: 20px;
+            height: 20px;
+            align-self: center;
+            padding-right: 5px;
+        }
+
+        .container {
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+        }
+
+        .icon {
+            width: 50px;
+            height: 50px;
+        }
+
+        .content-margin {
+            padding-left: 30px;
+        }
+
+        .content {
+            border: 3px solid #F0F0F0;
+        }
+        .data-source {
+            display: flex;
+        }
+
+        .btn {
+            padding: 10px;
+            border-radius: 50px 0px 0px 50px;
+            background-color: #32BDD2;
+            color: #FFFFFF;
+            border: 1px #000000;
+            font-size: 20px;
+        }
+        .drop-arrow {
+            width: 20px;
+            height: 20px;
+            padding-left: 8px;
+            align-self: center;
+        }

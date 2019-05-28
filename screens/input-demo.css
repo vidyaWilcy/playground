@@ -1,0 +1,96 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+       }
+        .profile {
+            width: 50px;
+            height: 50px;
+        }
+
+        .drop-down {
+            width: 20px;
+            height: 20px;
+            align-self: center;
+            padding-left:8px;
+        }
+
+        .data {
+            display: flex;
+            padding: 10px;
+            padding-left: 40px;
+            margin:10px 0px;
+            box-shadow: 0px 3px #DADADA;
+            justify-content: space-between;
+        }
+
+        .box {
+            display: flex;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            width: 35%;
+            align-self: center;
+        }
+        .courses{
+           border-bottom:4px solid #00BECF;
+           font-weight: bold;
+           font-size: 25px;
+       }
+       .input-data{
+           border:1px solid #CC8E91;
+           background-color: #FDCFD0;
+           height: 130px;
+           align-self: center;
+       }
+       .title{
+           width:50%;
+           padding:8px;
+           border:1px solid #CC8E91;
+           border-radius: 5px;
+       }
+       
+       
+          select{
+           border:none;
+           padding: 3px;
+           background-color: #FFFFFF; 
+       }
+       .form{
+           width: 50%;
+           border-radius: 5px;
+           border:1px solid #000000;
+           height:110px;
+       }
+       .style-data{
+           display: flex;
+           justify-content: space-between;
+       }
+       .button{
+        padding:10px;
+        border-radius:5px;
+        color:#FFFFFF;
+        background-color:#00BECF;
+        border:0px;
+        font-size:20px;
+        font-weight: bold;
+       }
+       select{
+           border:1px solid #000000;
+           padding: 10px;
+           background-color: #FFFFFF; 
+           width:30%;
+           border-color: #CC8E91;
+           border-radius: 5px;
+       }
+       li{
+           font-size: 20px;
+       }

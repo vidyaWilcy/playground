@@ -1,0 +1,96 @@
+        *{
+                padding:0px;
+                margin: 0px;
+                box-sizing: border-box;
+            }
+            .image-logo{
+                width:50px;
+                height:50px;
+            }
+            .profile-image{
+                width:50px;
+                height:50px;
+            }
+            ul{
+                list-style: none;
+            }
+                .drop-image{
+                width:20px;
+                height:20px;
+                padding-left: 8px;
+            }
+            #data-source{
+              text-decoration: underline;
+              text-decoration-color: #00CED1; 
+            }
+            
+            input{
+                border-radius: 12px;
+                padding:10px;
+                border:white;
+                width:100%;
+            }
+            #btn{
+                border-radius: 12px;
+                padding:5px;
+                background-color:#00CED1;
+                color: #FFFFFF;
+                width:100px;
+                border:0px;
+               }
+            .data-source{
+                
+                border-bottom:3px solid #00CED1;
+                padding-bottom: 5px;
+                
+            }
+            .tri-image{
+                width:50px;
+                height:50px;
+            }
+            .image-sss{
+                width:10px;
+                height:auto;
+                align-self: center;
+               
+            }
+            .image-ggg{
+                width:auto;
+                height: 8px;
+                align-self: center;
+               
+            }
+            .image-ong{
+                width:7px;
+                height:auto;
+                align-self: center;
+               
+            }
+            .blue-image{
+                width:10px;
+                height: 10px;
+                align-self: center;
+            }
+            
+            #underline{
+                border-bottom: 2px solid #00CED1;         
+            }
+            .icon{
+                width:20px;
+                height:20px;
+                align-self: center;
+            }
+            
+            .data-format{
+                display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 3px #DADADA;
+            padding: 5px;
+            padding-left: 40px;
+            margin: 10px 0px;
+            }
+            .container{
+                padding: 20px;
+                margin: 20px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+            }

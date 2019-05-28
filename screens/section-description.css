@@ -1,0 +1,76 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            width: 35%;
+            justify-content: space-between;
+            align-self: center;
+        }
+
+        .combobox {
+            display: flex;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+        }
+
+        .drop-image {
+            width: 25px;
+            height: 25px;
+            padding: 5px;
+            align-self: center;
+        }
+
+        .data-format {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 3px #DADADA;
+            padding: 5px;
+            padding-left: 40px;
+            margin:10px 0px;
+
+        }
+        .courses{
+           border-bottom:4px solid #00BECF;
+           font-weight: bold;
+           font-size: 30px;
+       }
+       input{
+           width:50%;
+           font-size: 20px;
+           border-radius: 5px;
+           border: 1px solid #000000;
+       }
+       .text{
+           width: 50%;
+           border-radius: 5px;
+           border:1px solid #000000;
+           font-size: 20px;
+       }
+       .container{
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+       }
+       .button-done{
+            display:flex;
+            justify-content: space-between;
+            padding-top:30px;
+        }
+        .button-border{
+            padding:10px;
+            background-color: #32BDD2;
+            color: #FFFFFF;
+            border:1px #000000; 
+            border-radius: 5px;
+            width:100px;    
+            font-size: 15px;  
+            font-weight: bold;    
+        }

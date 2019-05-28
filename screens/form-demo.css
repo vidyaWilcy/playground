@@ -1,0 +1,112 @@
+        *{
+            padding:0px;
+            margin:0px;
+            box-sizing: border-box;
+        }
+        .profile {
+            width: 50px;
+            height: 50px;
+        }
+        .drop-arrow {
+            width: 10px;
+            height: 10px;
+            align-self: center;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-self: center;
+            width:35%;
+
+        }
+        .underline{
+            border-bottom: 2px solid #01BECF;
+        }
+        .source{
+            border:1px solid black;
+            height:40px;
+            width:50%;
+        }       
+        .drop-image{
+            width:20px;
+            height:20px;
+            
+        }   
+        .btn-b{
+            padding:10px;
+            background-color: #32BDD2;
+            color: #FFFFFF;
+            border:1px #000000; 
+            border-radius: 5px;   
+            font-weight: bold;
+            width:105px;
+            font-size: 15px;           
+        }
+        .vmo{
+            border: 0px #FFFFFF;
+            width:100%;
+            height:50px;
+        }
+        select{
+            
+            border:0px;
+            width:20px;
+            height:40px;
+            align-self: center;
+        }
+        #example{
+            box-shadow: 5px 3px #DADADA;
+            padding:5px;
+        }
+        
+        input{
+            border-radius:25px;
+            height:30px;
+        }
+        
+        
+        .tpc-data{
+            border-bottom:5px solid #00BECF;
+            width: 40px;
+            font-size: 30px;
+            padding-bottom: 6px;
+        }
+        .inpt-val{
+            display:flex;
+            border: 1px solid black;
+            width:25%;
+            border-radius: 10px ;
+        }
+        .btm-val{
+            display:flex;
+            justify-content: space-between;
+        }
+        .container {
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+        }
+        .data-format {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 3px #DADADA;
+            padding: 5px;
+            padding-left: 40px;
+            margin: 15px 0px;
+
+        }
+        .profile-image {
+            width: 50px;
+            height: 50px;
+        }
+
+        .drop-image {
+            width: 20px;
+            height: 20px;
+            padding-left: 5px;
+            align-self: center;
+        }
+        .combobox {
+            display: flex;
+        }

@@ -1,0 +1,83 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            width: 35%;
+            justify-content: space-between;
+            align-self: center;
+        }
+
+        .combobox {
+            display: flex;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+        }
+
+        .drop-image {
+            width: 20px;
+            height: 20px;
+            padding-left: 5px;
+            align-self: center;
+        }
+
+        .data-format {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 3px #DADADA;
+            padding: 5px;
+            padding-left: 40px;
+            margin: 10px 0px;
+
+        }
+        .data-form{
+           width:50%;
+           border-radius: 5px;
+           border:1px solid #000000;
+           font-size: 30px;
+       }
+       .cloud-arrow{
+           width:50px;
+           height:50px;
+       }
+       .cloud-demo{
+           border:dashed 1px #000000;
+           width:30%;
+           padding: 15px;
+       }
+       .buttn{
+           border:0px;
+           padding:10px;
+           background-color: #00BECF;
+           border-radius: 5px;
+           width:100px;
+           color:#FFFFFF;
+           font-size: 15px;
+           font-weight: bold;
+       }
+       .style-data{
+           display: flex;
+           justify-content: space-between;
+           padding-top: 100px;
+       }
+       .container{
+        padding: 20px;
+        margin: 20px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+       }
+       .button{
+        padding:10px;
+        border-radius:5px;
+        color:#FFFFFF;
+        background-color:#00BECF;
+        border:0px;
+        font-size: 20px;
+        font-weight: bold;
+       }

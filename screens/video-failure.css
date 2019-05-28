@@ -1,0 +1,49 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+            display: flex;
+            width: 35%;
+            justify-content: space-between;
+            align-self: center;
+        }
+
+        .combobox {
+            display: flex;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+        }
+
+        .drop-image {
+            width: 20px;
+            height: 20px;
+            padding-left: 5px;
+            align-self: center;
+        }
+
+        .data-format {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 3px #DADADA;
+            padding: 5px;
+            padding-left: 40px;
+
+        }
+
+        .container {
+            padding: 20px;
+            margin: 20px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.65);
+        }
+
+        .input-data {
+            border: 1px solid #CC8E91;
+            background-color: #FDCFD0;
+        }
